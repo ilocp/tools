@@ -88,7 +88,7 @@ def read_csv(csvfile):
 
 def shift_coordinate():
     shift = random.randrange(100,900)
-    return float("0.000{}".format(str(shift)))
+    return float("0.000{}".format(str(shift))) * random.choice((1,-1))
 
 def shift_bearing(max_degrees=5):
     degrees = range(max_degrees * -1, max_degrees)
