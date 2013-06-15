@@ -46,3 +46,6 @@ Session.vim
 
 # Example code in package build process
 *-Ex.R
+
+# ignore test data
+*.csv
